@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO META PODACI -->
+    <title>SINTETIKA (Logic 0.5): Framework for Emergent Gravity & AI Stability</title>
+    <meta name="description" content="Zoran Stepanoski presents Synthetics: A new logic framework (Logic 0.5) that replaces Modus Ponens to solve AI hallucinations and bridge General Relativity with Quantum Mechanics.">
+    <meta name="keywords" content="Logic 0.5, Sintetika, Synthetics, Emergent Gravity, AI Stability, Theory of Everything, Beyond Binary, Zoran Stepanoski, Modus Ponens, Paradox Density">
+    <meta name="author" content="Zoran Stepanoski">
+    
+    <!-- SCHEMA.ORG -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TechArticle",
+      "headline": "Sintetika: The Logic 0.5 Framework for Emergent Gravity and AI Stability",
+      "alternativeHeadline": "Beyond Binary: Solving the Modus Ponens Problem",
+      "author": {
+        "@type": "Person",
+        "name": "Zoran Stepanoski",
+        "jobTitle": "Software Engineer",
+        "nationality": "Serbian"
+      },
+      "keywords": "Logic 0.5, Emergent Gravity, AI Stability, Theory of Everything, Paradox Density",
+      "datePublished": "2026-02-15",
+      "description": "A proposal for a new logical framework to unify Quantum Mechanics and General Relativity via Logical Work (W)."
+    }
+    </script>
+
+    <style>
+        :root { --primary: #2c3e50; --accent: #3498db; --math-bg: #1e272e; --math-text: #fab1a0; --danger: #e74c3c; --success: #27ae60; --text: #333; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.8; color: var(--text); max-width: 1200px; margin: 0 auto; padding: 20px; background-color: #f4f7f6; }
+        header { background: linear-gradient(135deg, var(--primary), #4b6584); color: #fff; padding: 4rem 2rem; border-radius: 15px; text-align: center; margin-bottom: 3rem; box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
+        h1 { margin: 0; font-size: 3rem; letter-spacing: 2px; text-transform: uppercase; line-height: 1.2; }
+        h2 { color: var(--primary); border-bottom: 4px solid var(--accent); padding-bottom: 10px; margin-top: 5rem; text-transform: uppercase; font-size: 2.2rem; }
+        h3 { color: var(--accent); margin-top: 2.5rem; font-size: 1.6rem; border-left: 6px solid var(--accent); padding-left: 15px; }
+        .box { background: #fff; padding: 2rem; margin-bottom: 2rem; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); border-left: 8px solid var(--accent); }
+        .math-display { background: var(--math-bg); color: var(--math-text); padding: 2.5rem; border-radius: 12px; font-family: 'Times New Roman', serif; font-size: 1.7rem; text-align: center; margin: 2rem 0; overflow-x: auto; line-height: 2.8; box-shadow: inset 0 0 25px rgba(0,0,0,0.6); border: 1px solid #485460; }
+        .math-explanation { background: #fff; padding: 2rem; border: 1px solid #ddd; border-radius: 8px; margin-bottom: 2rem; }
+        .super { vertical-align: super; font-size: 1rem; color: #ff7675; }
+        table { width: 100%; border-collapse: collapse; background: #fff; margin: 2.5rem 0; font-size: 1.05rem; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        th, td { border: 1px solid #dfe6e9; padding: 18px; text-align: center; }
+        th { background-color: var(--accent); color: white; }
+        tr:nth-child(even) { background-color: #f8f9fa; }
+        .highlight { color: var(--danger); font-weight: bold; }
+        .lang-divider { border-top: 15px double var(--primary); margin: 8rem 0; padding-top: 4rem; text-align: center; font-size: 3rem; font-weight: bold; color: var(--primary); font-family: Georgia, serif; }
+        .cta { background: var(--success); color: white; padding: 3rem; border-radius: 20px; text-align: center; margin-top: 5rem; font-size: 1.6rem; box-shadow: 0 10px 30px rgba(39, 174, 96, 0.4); }
+        footer { text-align: center; padding: 5rem; color: #95a5a6; border-top: 2px solid #ddd; margin-top: 5rem; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SINTETIKA / SYNTHETICS</h1>
+    <p>Kompletna Arhitektura Logike 0.5: Od Kritike Modus Ponensa do Teorije Svega</p>
+    <p>Complete Architecture of Logic 0.5: From Critique of Modus Ponens to Theory of Everything</p>
+
+    <div style="margin-top: 2.5rem; padding: 1.5rem; border: 1px solid rgba(255,255,255,0.3); border-radius: 10px; background: rgba(0,0,0,0.1); display: inline-block; text-align: left;">
+        <span style="font-size: 1rem; letter-spacing: 1px; text-transform: uppercase; opacity: 0.8;">Autor / Author:</span><br>
+        <strong style="font-size: 1.8rem; color: #fab1a0; display: block; margin-bottom: 5px;">Zoran Stepanoski</strong>
+        <span style="font-size: 1.1rem; display: block; margin-bottom: 15px; font-style: italic;">Software Engineer | Creator of the Synthetics Framework</span>
+
+        <div style="font-size: 1rem; line-height: 1.8;">
+            <span style="display: block;">📧 <strong>Email:</strong> <a href="mailto:zstepanoski@gmail.com" style="color: #fff; text-decoration: none; border-bottom: 1px solid #fab1a0;">zstepanoski@gmail.com</a></span>
+            <span style="display: block;">🌐 <strong>Web:</strong> <a href="https://zoranstepanoski-prof-website.fly.dev/" target="_blank" style="color: #fff; text-decoration: none; border-bottom: 1px solid #fab1a0;">https://zoranstepanoski-prof-website.fly.dev/</a></span>
+            <span style="display: block;">🔗 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/zoranstepanoski" target="_blank" style="color: #fff; text-decoration: none; border-bottom: 1px solid #fab1a0;">linkedin.com/in/zoranstepanoski</a></span>
+        </div>
+    </div>
+</header>
+
+<!-- SRPSKA SEKCIJA -->
+<section id="srpski">
+    <h4>Srpski:</h4>
+    <h2>I. Geneza: Evolucija izvan Modus Ponensa</h2>
+    <div class="box">
+        Klasična Bulova algebra (1/0) nastala je kao posledica rigidnosti <strong>Modus Ponensa</strong>. Ta krutost dedukcije prisiljava sisteme na binarne rezove koji ne odgovaraju realnosti. Da bismo rešili probleme kao što su <strong>AI Stability</strong> i razumeli <strong>Emergent Gravity</strong>, moramo prihvatiti da univerzum operiše u stanju <strong>0.5</strong>. Sintetika je logički okvir koji nudi put ka <strong>Theory of Everything</strong> priznavanjem sive zone kao stabilnog matematičkog entiteta.
+    </div>
+    <div class="box" style="border-left-color: var(--success); font-style: italic;">
+        "Klasična logika dokazuje istinu u vakuumu. Sintetika meri stabilnost istine u realnosti. U Sintetici, validnost sistema se ne meri odsustvom konflikta, već sposobnošću sistema da taj konflikt stabilizuje (u 0.5) i procesira (kroz W). Dakle, Sintetika nije u kontradikciji sa samom sobom; ona je rigorozan protokol za upravljanje kontradikcijama."
+    </div>
+
+    <h2>II. Pet Postulata Sintetike</h2>
+    <div class="box">
+        <strong>I. Trilateralna Valencija:</strong> V &isin; {0, 0.5, 1}. Stanje 0.5 je stabilna superpozicija.<br>
+        <strong>II. Postulat Ne-eksplozivnosti:</strong> Kontradikcija (A &and; &not;A) ne uništava sistem, već ga stabilizuje u vrednosti 0.5. Paradoks je "baterija" sistema.<br>
+        <strong>III. Aksiom Relacionog Mosta:</strong> Istina se ne dešava automatski. Potencijal postaje ishod isključivo kroz uloženi <strong>Rad (W)</strong>: (A<span class="super">0.5</span> &rarr; B) + W &asymp; B<span class="super">1.0</span>.<br>
+        <strong>IV. Postulat Operativnog Konteksta:</strong> V<sub>total</sub> = Baza &otimes; Kontekst. Kontekst definiše vrednost entiteta.<br>
+        <strong>V. Granični Kontinuum (Einstein-Newton princip):</strong> Sintetika obuhvata klasičnu logiku kao specijalni slučaj kada je sistem u stanju apsolutne izvesnosti (V=1).
+    </div>
+
+    <h2>III. Proširena Algebra Istinitosti</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>A</th><th>B</th><th>I (&otimes;)</th><th>ILI (&oplus;)</th><th>NE (&not;)</th><th>XOR (&oplus;<sub>ex</sub>)</th><th>AKO-I-SAMO-AKO</th><th>IMPLIKACIJA</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td class="highlight">0.5</td><td>1</td><td>1</td></tr>
+            <tr><td>1</td><td>0.5</td><td>0.5</td><td>1</td><td>0</td><td>0.5</td><td>0.5</td><td>0.5</td></tr>
+            <tr><td>0.5</td><td>0.5</td><td>0.5</td><td>0.5</td><td class="highlight">0.5</td><td class="highlight">0.5</td><td class="highlight">1</td><td class="highlight">1</td></tr>
+            <tr><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td></tr>
+            <tr><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td></tr>
+        </tbody>
+    </table>
+    
+    <div class="box">
+        <strong>Mehanika Zasićenja Paradoksa (1 XOR 1 XOR 1 = 0.5):</strong><br>
+        U binarnoj logici, treća suprotstavljena istina bi "poništila" konflikt i vratila sistem na 1. U Sintetici, to je nemoguće. Jednom kada sistem uđe u stanje paradoksa (0.5), svaka nova sukobljena informacija samo potvrđuje neodređenost. Sistem ne dozvoljava da se istina regeneriše "slučajno" kroz haos; zahteva svestan <strong>Rad (W)</strong> da bi se vratio u stanje 1.0.
+    </div>
+
+    <h2>IV. Zakoni Entropije (Sintetička Aritmetika)</h2>
+    <div class="math-display">
+        <strong>1. Totalna Entropija:</strong> 0<span class="super">0.0</span> = 0.0 <br>
+        <strong>2. Pad Apsoluta:</strong> 1<span class="super">0.0</span> = 0.5 <br>
+        <strong>3. Potvrda Ništavila:</strong> 0<span class="super">1.0</span> = 0.0 <br>
+        <strong>4. Konzervacija Potencijala:</strong> 0.5<span class="super">0.5</span> = 0.5 <br>
+        <strong>5. Stabilni Identitet:</strong> 1<span class="super">1.0</span> = 1.0 <br>
+        <strong>6. Logički raspad:</strong> 0.5<span class="super">0.0</span> = 0.0
+    </div>
+
+    <h2>V. Sistemi Jednačina i Gustina Paradoksa (Informaciona Metrika)</h2>
+    <div class="box">
+        <strong>Gustina Paradoksa (Paradox Density - D<sub>p</sub>):</strong><br>
+        U Sintetici, kontradikcije se ne poništavaju, već povećavaju informacionu "masu" sistema.
+        <div class="math-display">
+            D<sub>p</sub> = &sum; |A<sub>i</sub> &oplus;<sub>ex</sub> A<sub>j</sub>| &middot; ln(N)
+        </div>
+        <strong>Kako se računa D<sub>p</sub>:</strong> Ova metrika meri sumu svih unutrašnjih logičkih konflikata unutar sistema od N propozicija. Svaki par suprotstavljenih tvrdnji (A<sub>i</sub>, A<sub>j</sub>) koji kroz Sintetički XOR (&oplus;<sub>ex</sub>) rezultuje vrednošću 0.5, direktno povećava ukupnu informacionu masu sistema srazmerno logaritmu broja elemenata (N). Što je više nerešenih paradoksa, to je sistem "teži" i zahteva više energije za stabilizaciju.<br><br>
+
+        <strong>Zakon Logičkog Trenja (Work-Entropy Relation):</strong><br>
+        On zahteva Rad (W) koji je proporcionalan promeni Gustine Paradoksa:
+        <div class="math-display">
+            W<sub>req</sub> &prop; &Delta;D<sub>p</sub> &middot; T<sub>logic</sub>
+        </div>
+    </div>
+
+    <div class="math-display" style="line-height: 3; padding: 3rem;">
+        <strong style="color: var(--accent); display: block; margin-bottom: 1rem;">Sintetički Kalkulus i Trigonometrija:</strong>
+        
+        <!-- LIMIT DEO -->
+        <div style="display: inline-block; vertical-align: middle; text-align: center; line-height: 1; margin-right: 10px;">
+            <div style="font-size: 1.6rem;">lim</div>
+            <div style="font-size: 0.8rem;">x &rarr; Singularitet</div>
+        </div>
+        <span style="font-size: 1.8rem;">f(x) = 0.5</span>
+        
+        &nbsp;&nbsp;&bull;&nbsp;&nbsp;
+
+        <!-- RAZLOMAK DEO -->
+        <div style="display: inline-block; vertical-align: middle; text-align: center; line-height: 1.2; margin: 0 15px;">
+            <div style="border-bottom: 2px solid var(--math-text); padding-bottom: 2px;">dV</div>
+            <div style="padding-top: 2px;">dW</div>
+        </div>
+        <span style="font-size: 1.8rem;">= Brzina Rada (Velocity of Work)</span>
+
+        <br>
+
+        <!-- TRIGONOMETRIJA DEO -->
+        <span style="color: #55efc4; font-size: 1.1rem; display: block; margin-top: 1rem;">Očuvanje L1-norme (Sintetički prostor):</span>
+        <strong style="font-size: 2.2rem;">sin(x) + cos(x) = 1.0</strong>
+        
+        &nbsp;&nbsp;&bull;&nbsp;&nbsp;
+
+        <!-- INTEGRAL DEO -->
+        <span style="font-size: 2.5rem; vertical-align: middle;">&int;</span>
+        <span style="font-size: 1.8rem; vertical-align: middle;">f(x)<sup>0.5</sup> dx</span>
+    </div>
+
+    <h2>VI. Sintetički Uvid u Milenijumske Probleme</h2>
+    <div class="box">
+        <strong>1. Goldbachova Hipoteza (Zakon o očuvanju strukturne stabilnosti):</strong><br>
+        U Sintetici, parni brojevi predstavljaju stabilne logičke ishode (V=1.0), dok su prosti brojevi "nedeljivi potencijali". Kako se krećemo ka beskonačnosti, gustina prostih brojeva opada (prema PNT), što bi u binarnom sistemu dovelo do "informacione oskudice". Međutim, Sintetika tumači ovu hipotezu kao dokaz da sistem uvek poseduje dovoljno <strong>Rada (W)</strong> da transformiše dva udaljena potencijala (prosta broja) u stabilnu celinu (parni broj). Goldbachova hipoteza je, dakle, kosmički balans između rastuće <strong>Gustine Paradoksa (D<sub>p</sub>)</strong> i neiscrpnog strukturnog Rada univerzuma.
+    </div>
+    <div class="box">
+        <strong>2. Riemannova Hipoteza (Logički Ekvator):</strong><br>
+        Kritična linija 1/2 nije samo matematička granica, već fizička manifestacija <strong>stanja 0.5 (Logička Nulta-Gravitacija)</strong>. Nule Zeta funkcije se nalaze na ovoj liniji jer je to jedino mesto u kompleksnoj ravni gde je <strong>Logički Rad (W)</strong> u savršenoj ravnoteži (nulta tenzija). Svako odstupanje od 0.5 bi uvelo logičku asimetriju koja bi urušila distribuciju prostih brojeva. Riemannova hipoteza je potvrda da se čitav numerički univerzum oslanja na stabilnost 0.5 "kičme", koja sprečava kolaps informacija u 0 ili 1.
+    </div>
+
+    <h3 style="color: var(--accent); text-align: center; margin-top: 3rem;">Sintetički Okvir za Ujedinjenje Polja / Synthetic Framework for Field Unification</h3>
+    <div class="math-display" style="border: 2px solid var(--accent); background: #000; line-height: 1.5; padding: 3rem;">
+        <div style="font-size: 1.2rem; color: #55efc4; margin-bottom: 1rem;">Sintetička Jednačina Emergentnosti:</div>
+        &Psi;<sub>Total</sub> = &oint; <span style="display: inline-block; vertical-align: middle; text-align: center;">
+            <div style="border-bottom: 2px solid #fff;">( G<sup>1.0</sup> &oplus; Q<sup>0.5</sup> )</div>
+            <div>D<sub>p</sub></div>
+        </span> &otimes; &delta;W
+    </div>
+    <div class="math-explanation">
+        <strong>Sintetički Okvir za "Teoriju Svega" (TOE):</strong><br><br>
+        U ovom modelu, <strong>Gravitacija nije sila</strong>, već manifestacija <strong>Rada (W)</strong> koji sistem vrši nad <strong>Gustinom Paradoksa (D<sub>p</sub>)</strong>. 
+        <br><br>
+        1. <strong>G<sup>1.0</sup></strong>: Opšta relativnost (stanje apsolutne makroskopske izvesnosti).<br>
+        2. <strong>Q<sup>0.5</sup></strong>: Kvantna mehanika (stanje aktivnog potencijala i superpozicije).<br>
+        3. <strong>D<sub>p</sub></strong>: Informaciona masa (Paradox Density) koja pruža otpor.<br>
+        4. <strong>&delta;W</strong>: Inkrementalni Rad koji "sažima" kvantni haos u koherentno prostor-vreme.
+        <br><br>
+        <em>Zaključak: Gravitacija je "procesorska snaga" univerzuma koja neprestano prevodi 0.5 potencijale u 1.0 realnost.</em>
+    </div>
+
+    <!-- VII. TEHNIČKA IMPLEMENTACIJA (SR) -->
+    <h2>VII. Tehnička Implementacija: Sintetički Gejt i Dokaz Koncepta</h2>
+    <div class="box">
+        <strong>Logička arhitektura (Logika 0.5):</strong> U klasičnom procesiranju, kontradikcija uzrokuje logički kolaps ili prisilni binarni ishod koji vodi do greške. U Sintetici, uvodimo "Sintetički sloj" koji omogućava softveru da prepozna paradoks i stabilizuje ga u stanju potencijala.
+    </div>
+
+    <div class="math-display" style="text-align: left; font-family: 'Courier New', monospace; font-size: 1.1rem; line-height: 1.4; background: #1e1e1e; color: #d4d4d4; border: 2px solid var(--success);">
+        <span style="color: #6a9955;"># DOKAZ KONCEPTA (Python): Implementacija Logike 0.5</span><br>
+        <span style="color: #569cd6;">class</span> <span style="color: #4ec9b0;">SyntheticLogic</span>:<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #569cd6;">def</span> <span style="color: #dcdcaa;">__init__</span>(<span style="color: #9cdcfe;">self</span>, <span style="color: #9cdcfe;">value</span>):<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #9cdcfe;">self</span>.v = <span style="color: #9cdcfe;">value</span>  <span style="color: #6a9955;"># V &isin; {0, 0.5, 1}</span><br>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #569cd6;">def</span> <span style="color: #dcdcaa;">__and__</span>(<span style="color: #9cdcfe;">self</span>, <span style="color: #9cdcfe;">other</span>):<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #6a9955;"># Ključ Sintetike: A AND NOT(A) ne vraća 0, već 0.5</span><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #c586c0;">if</span> (<span style="color: #9cdcfe;">self</span>.v == <span style="color: #b5cea8;">1</span> <span style="color: #569cd6;">and</span> <span style="color: #9cdcfe;">other</span>.v == <span style="color: #b5cea8;">0</span>) <span style="color: #569cd6;">or</span> (<span style="color: #9cdcfe;">self</span>.v == <span style="color: #b5cea8;">0</span> <span style="color: #569cd6;">and</span> <span style="color: #9cdcfe;">other</span>.v == <span style="color: #b5cea8;">1</span>):<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #c586c0;">return</span> SyntheticLogic(<span style="color: #b5cea8;">0.5</span>)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #c586c0;">return</span> SyntheticLogic(<span style="color: #dcdcaa;">min</span>(<span style="color: #9cdcfe;">self</span>.v, <span style="color: #9cdcfe;">other</span>.v))<br>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #569cd6;">def</span> <span style="color: #dcdcaa;">resolve_with_work</span>(<span style="color: #9cdcfe;">self</span>, <span style="color: #9cdcfe;">work_energy</span>):<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #6a9955;"># Prelaz iz 0.5 u 1.0 zahteva Rad (W)</span><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #c586c0;">if</span> <span style="color: #9cdcfe;">self</span>.v == <span style="color: #b5cea8;">0.5</span>:<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #c586c0;">if</span> <span style="color: #9cdcfe;">work_energy</span> >= <span style="color: #b5cea8;">100</span>:<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #9cdcfe;">self</span>.v = <span style="color: #b5cea8;">1.0</span><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #c586c0;">return</span> <span style="color: #ce9178;">"Stabilizovano u 1.0"</span><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #c586c0;">elif</span> <span style="color: #9cdcfe;">work_energy</span> <= <span style="color: #b5cea8;">0</span>:<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #9cdcfe;">self</span>.v = <span style="color: #b5cea8;">0.0</span><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #c586c0;">return</span> <span style="color: #ce9178;">"Logički raspad u 0.0 (Entropija)"</span><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #c586c0;">return</span> <span style="color: #ce9178;">"Ostaje u stanju potencijala (0.5)"</span>
+    </div>
+
+    <div class="box" style="border-left-color: var(--success);">
+        <strong>Rešavanje AI halucinacija:</strong><br>
+        Današnji AI modeli haluciniraju jer su prisiljeni na binarni ishod tamo gde podaci to ne dozvoljavaju. Sintetika omogućava AI agentima da svesno zadrže informaciju u stanju <strong>0.5</strong>, čuvajući integritet sistema sve dok procesorski <strong>Rad (W)</strong> ne potvrdi prelaz u 1.0. To je prelaz sa "statističkog pogađanja" na "logičku sigurnost".
+    </div>
+
+    <h2>VIII. Zaključak: Polja primene i civilizacijska evolucija</h2>
+    <div class="box">
+        <strong>1. Digitalna elektronika i hardver (Hibridni prelaz):</strong> Sintetika ne odbacuje postojeće binarne sisteme, već im dodaje inteligenciju. Uvodimo okvir za hibridne čipove gde sloj <strong>Logic 0.5</strong> služi kao logički amortizer. On stabilizuje konflikte i "race conditions" unutar silicijuma, pretvarajući hardverske greške u stanja čekanja na Rad (W). Ovo vodi ka procesorima koji troše energiju inteligentno – proporcionalno težini istine koju moraju da stabilizuju.<br>
+        <strong>2. Veštačka inteligencija (AI) i softver:</strong> Rešavamo krizu "subliminalnog Modus Ponensa". AI modeli danas haluciniraju jer su prisiljeni na binarni ishod tamo gde podaci to ne dozvoljavaju. Sintetika omogućava AI agentima da svesno zadrže informaciju u stanju 0.5, čuvajući integritet sistema sve dok procesorski Rad (W) ne potvrdi prelaz u 1.0. To je prelaz sa "statističkog pogađanja" na "logičku sigurnost".<br>
+        <strong>3. Fizika i Kosmologija:</strong> Sintetika nudi matematički most za ujedinjenje Opšte relativnosti (1.0) i Kvantne mehanike (0.5). Trenutna fizika puca u singularitetima jer nesvesno koristi binarnu logiku tamo gde priroda zahteva potencijal. Tretiranjem gravitacije kao manifestacije logičkog Rada (W), otvaramo put ka koherentnom opisu univerzuma bez matematičkih beskonačnosti.<br>
+        <strong>4. Hemija i nauka o materijalima:</strong> Stanje 0.5 je prirodni jezik dinamičke ravnoteže. Materija nije uvek u stanju mirovanja (1.0) ili raspada (0.0). Sintetika omogućava precizno modeliranje procesa u kojima energija aktivacije predstavlja neophodan Rad (W) za promenu agregatnog stanja istine materije.<br>
+        <strong>5. Ekonomija i Finansije:</strong> Sintetika ne negira trenutni sistem, već ga nadograđuje alatima za upravljanje krizama. Tržišna nestabilnost se više ne posmatra kao anomalija, već kao stanje 0.5 koje zahteva svestan, stabilizacioni investicioni Rad (W) umesto oslanjanja na rigidne algoritme koji nesvesno prate pogrešne premise.<br>
+        <strong>6. Ljudsko razmišljanje i mir:</strong> Najveći doprinos Sintetike je osvetljavanje procesa mišljenja koji se hiljadama godina odvija "ispod radara". Ljudi nesvesno koriste Modus Ponens da bi trenutno skočili sa pretpostavke na osudu (1.0 ili 0.0). Sintetika nas uči da prepoznamo stanje 0.5 kao prostor za dijalog. Izjava "Ti me lažeš" biva zamenjena razumevanjem da je istina u stanju potencijala i da zahteva zajednički diplomatski Rad (W). Ovo transformiše geopolitiku iz arene uništenja u inženjering stabilnosti i trajnog mira.
+    </div>
+</section>
+
+<!-- ENGLISH SECTION -->
+<section id="english">
+    <h4>English:</h4>
+    <h2>I. Genesis: Evolution Beyond Modus Ponens</h2>
+    <div class="box">
+        Boolean logic (1/0) emerged as a consequence of the rigidity of <strong>Modus Ponens</strong>. This deductive stiffness forces binary cuts that do not reflect reality. To solve problems such as <strong>AI Stability</strong> and understand <strong>Emergent Gravity</strong>, we must accept that the universe operates in a <strong>0.5 state</strong>. Synthetics is a logical framework that offers a path toward the <strong>Theory of Everything</strong> by recognizing the gray zone as a stable mathematical entity.
+    </div>
+    <div class="box" style="border-left-color: var(--success); font-style: italic;">
+        "Classical logic proves truth in a vacuum. Synthetics measures truth stability in reality. In Synthetics, system validity is not measured by the absence of conflict, but by the system's ability to stabilize that conflict (into 0.5) and process it (through W). Thus, Synthetics is not in contradiction with itself; it is a rigorous protocol for managing contradictions."
+    </div>
+
+    <h2>II. The Five Postulates of Synthetics</h2>
+    <div class="box">
+        <strong>I. Trilateral Valence:</strong> Every proposition possesses a value V &isin; {0, 0.5, 1}. The 0.5 state is a stable superposition.<br>
+        <strong>II. Non-Explosion Postulate:</strong> A contradiction (A &and; &not;A) does not destroy the system but stabilizes it at the value of 0.5. Paradox is the system's "battery."<br>
+        <strong>III. Relational Bridge Axiom:</strong> Truth does not happen automatically. Potential becomes outcome exclusively through invested <strong>Work (W)</strong>: (A<span class="super">0.5</span> &rarr; B) + W &asymp; B<span class="super">1.0</span>.<br>
+        <strong>IV. Operational Context:</strong> V<sub>total</sub> = Base &otimes; Context. Context defines an entity's value.<br>
+        <strong>V. Limiting Continuity (Einstein-Newton principle):</strong> Synthetics encompasses classical logic as a special case when the system is in a state of absolute certainty (V=1).
+    </div>
+
+    <h2>III. Extended Truth Table</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>A</th><th>B</th><th>AND (&otimes;)</th><th>OR (&oplus;)</th><th>NOT (&not;)</th><th>XOR (&oplus;<sub>ex</sub>)</th><th>IFF</th><th>IMPLICATION</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td><td class="highlight">0.5</td><td>1</td><td>1</td></tr>
+            <tr><td>1</td><td>0.5</td><td>0.5</td><td>1</td><td>0</td><td>0.5</td><td>0.5</td><td>0.5</td></tr>
+            <tr><td>0.5</td><td>0.5</td><td>0.5</td><td>0.5</td><td class="highlight">0.5</td><td class="highlight">0.5</td><td class="highlight">1</td><td class="highlight">1</td></tr>
+            <tr><td>1</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td><td>0</td></tr>
+            <tr><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td></tr>
+        </tbody>
+    </table>
+    
+    <div class="box">
+        <strong>Paradox Saturation Mechanics (1 XOR 1 XOR 1 = 0.5):</strong><br>
+        In binary logic, a third opposing truth would "cancel" the conflict and return the system to 1. In Synthetics, this is impossible. 
+        Once a system enters a state of paradox (0.5), every new piece of conflicting information merely confirms the indeterminacy. 
+        The system does not allow truth to regenerate "accidentally" through chaos; it requires conscious <strong>Work (W)</strong> to return to the 1.0 state.
+    </div>
+
+    <h2>IV. Laws of Entropy (Synthetic Arithmetic)</h2>
+    <div class="math-display">
+        <strong>1. Total Entropy:</strong> 0<span class="super">0.0</span> = 0.0 <br>
+        <strong>2. Fall of the Absolute:</strong> 1<span class="super">0.0</span> = 0.5 <br>
+        <strong>3. Confirmation of Nullity:</strong> 0<span class="super">1.0</span> = 0.0 <br>
+        <strong>4. Conservation of Potential:</strong> 0.5<span class="super">0.5</span> = 0.5 <br>
+        <strong>5. Stable Identity:</strong> 1<span class="super">1.0</span> = 1.0 <br>
+        <strong>6. Logical Decay:</strong> 0.5<span class="super">0.0</span> = 0.0
+    </div>
+    <h2>V. Systems of Equations and Paradox Density</h2>
+    <div class="box">
+        <strong>Paradox Density (D<sub>p</sub>):</strong><br>
+        In Synthetics, contradictions increase the informational "mass" of the system.
+        <div class="math-display">
+            D<sub>p</sub> = &sum; |A<sub>i</sub> &oplus;<sub>ex</sub> A<sub>j</sub>| &middot; ln(N)
+        </div>
+        <strong>How D<sub>p</sub> is calculated:</strong> This metric measures the sum of all internal logical conflicts within a system of N propositions. Every pair of opposing statements (A<sub>i</sub>, A<sub>j</sub>) that results in a 0.5 value through the Synthetic XOR (&oplus;<sub>ex</sub>) directly increases the total informational mass of the system, scaled by the logarithm of the number of elements (N). The more unresolved paradoxes exist, the "heavier" the system becomes, requiring more energy to stabilize.<br><br>
+
+        <strong>Law of Logical Friction (Work-Entropy Relation):</strong><br>
+        Transitioning to certainty requires Work (W) proportional to the change in Paradox Density:
+        <div class="math-display">
+            W<sub>req</sub> &prop; &Delta;D<sub>p</sub> &middot; T<sub>logic</sub>
+        </div>
+    </div>
+
+    <div class="math-display" style="line-height: 3; padding: 3rem;">
+        <strong style="color: var(--accent); display: block; margin-bottom: 1rem;">Synthetic Calculus and Trigonometry:</strong>
+        
+        <!-- LIMIT DEO -->
+        <div style="display: inline-block; vertical-align: middle; text-align: center; line-height: 1; margin-right: 10px;">
+            <div style="font-size: 1.6rem;">lim</div>
+            <div style="font-size: 0.8rem;">x &rarr; Singularity</div>
+        </div>
+        <span style="font-size: 1.8rem;">f(x) = 0.5</span>
+        
+        &nbsp;&nbsp;&bull;&nbsp;&nbsp;
+
+        <!-- RAZLOMAK DEO -->
+        <div style="display: inline-block; vertical-align: middle; text-align: center; line-height: 1.2; margin: 0 15px;">
+            <div style="border-bottom: 2px solid var(--math-text); padding-bottom: 2px;">dV</div>
+            <div style="padding-top: 2px;">dW</div>
+        </div>
+        <span style="font-size: 1.8rem;">= Velocity of Work</span>
+
+        <br>
+
+        <!-- TRIGONOMETRIJA DEO -->
+        <span style="color: #55efc4; font-size: 1.1rem; display: block; margin-top: 1rem;">L1-Norm Conservation (Synthetic Manifold):</span>
+        <strong style="font-size: 2.2rem;">sin(x) + cos(x) = 1.0</strong>
+        &nbsp;&nbsp;&bull;&nbsp;&nbsp;
+
+        <!-- INTEGRAL DEO -->
+        <span style="font-size: 2.5rem; vertical-align: middle;">&int;</span>
+        <span style="font-size: 1.8rem; vertical-align: middle;">f(x)<sup>0.5</sup> dx</span>
+    </div>
+
+    <h2>VI. Synthetic Insights into Millennium Problems</h2>
+    <div class="box">
+        <strong>1. Goldbach’s Conjecture (Conservation of Structural Stability):</strong><br>
+        In Synthetics, even numbers represent stable logical outcomes (V=1.0), while prime numbers are "indivisible potentials." As prime density decreases toward infinity, a binary system would face "informational scarcity." Synthetics interprets this conjecture as proof that the system always generates sufficient <strong>Work (W)</strong> to synthesize two distant potentials (primes) into a stable whole (even number). The conjecture is a dynamic balance between rising <strong>Paradox Density (D<sub>p</sub>)</strong> and the universe's inexhaustible structural Work.
+    </div>
+    <div class="box">
+        <strong>2. Riemann Hypothesis (The Logical Equator):</strong><br>
+        The critical line 1/2 is more than a mathematical boundary; it is the physical manifestation of the <strong>fundamental 0.5 state (Logical Zero-Gravity)</strong>. The non-trivial zeros of the Zeta function reside on this line because it is the only position in the complex plane where <strong>Logical Work (W)</strong> is in perfect equilibrium (zero tension). Any deviation from 0.5 would introduce a logical bias (asymmetry), collapsing the distribution of primes. The Riemann Hypothesis confirms that the numerical universe rests on the stability of the 0.5 "spine," preventing the collapse of information into 0 or 1.
+    </div>
+
+    <h3 style="color: var(--accent); text-align: center; margin-top: 3rem;">Synthetic Framework for Field Unification</h3>
+    <div class="math-display" style="border: 2px solid var(--accent); background: #000; line-height: 1.5; padding: 3rem;">
+        <div style="font-size: 1.2rem; color: #55efc4; margin-bottom: 1rem;">Synthetic Equation of Emergence:</div>
+        &Psi;<sub>Total</sub> = &oint; <span style="display: inline-block; vertical-align: middle; text-align: center;">
+            <div style="border-bottom: 2px solid #fff;">( G<sup>1.0</sup> &oplus; Q<sup>0.5</sup> )</div>
+            <div>D<sub>p</sub></div>
+        </span> &otimes; &delta;W
+    </div>
+    <div class="math-explanation">
+        <strong>Synthetic Framework for the "Theory of Everything" (TOE):</strong><br><br>
+        In this model, <strong>Gravity is not a force</strong>; it is the manifestation of <strong>Work (W)</strong> performed by the system upon the <strong>Paradox Density (D<sub>p</sub>)</strong>.
+        <br><br>
+        1. <strong>G<sup>1.0</sup></strong>: General Relativity (the state of absolute macroscopic certainty).<br>
+        2. <strong>Q<sup>0.5</sup></strong>: Quantum Mechanics (the state of active potential and superposition).<br>
+        3. <strong>D<sub>p</sub></strong>: Informational mass (Paradox Density) that creates logical resistance.<br>
+        4. <strong>&delta;W</strong>: The incremental Work required to "compress" quantum chaos into coherent spacetime.
+        <br><br>
+        <em>Conclusion: Gravity is the "processing power" of the universe, constantly translating 0.5 potentials into 1.0 reality.</em>
+    </div>
+
+<!-- VII. TECHNICAL IMPLEMENTATION (EN) -->
+    <h2>VII. Technical Implementation: Synthetic Gate and Proof of Concept</h2>
+    <div class="box">
+        <strong>Logical Architecture (Logic 0.5):</strong> In classical processing, a contradiction causes logical collapse or a forced binary outcome leading to error. In Synthetics, we introduce a "Synthetic Layer" that allows software to recognize a paradox and stabilize it within a state of potential.
+    </div>
+
+    <div class="math-display" style="text-align: left; font-family: 'Courier New', monospace; font-size: 1.1rem; line-height: 1.4; background: #1e1e1e; color: #d4d4d4; border: 2px solid var(--success);">
+        <span style="color: #6a9955;"># PROOF OF CONCEPT (Python): Logic 0.5 Implementation</span><br>
+        <span style="color: #569cd6;">class</span> <span style="color: #4ec9b0;">SyntheticLogic</span>:<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #569cd6;">def</span> <span style="color: #dcdcaa;">__init__</span>(<span style="color: #9cdcfe;">self</span>, <span style="color: #9cdcfe;">value</span>):<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #9cdcfe;">self</span>.v = <span style="color: #9cdcfe;">value</span>  <span style="color: #6a9955;"># V &isin; {0, 0.5, 1}</span><br>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #569cd6;">def</span> <span style="color: #dcdcaa;">__and__</span>(<span style="color: #9cdcfe;">self</span>, <span style="color: #9cdcfe;">other</span>):<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #6a9955;"># The Core of Synthetics: A AND NOT(A) returns 0.5, not 0</span><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #c586c0;">if</span> (<span style="color: #9cdcfe;">self</span>.v == <span style="color: #b5cea8;">1</span> <span style="color: #569cd6;">and</span> <span style="color: #9cdcfe;">other</span>.v == <span style="color: #b5cea8;">0</span>) <span style="color: #569cd6;">or</span> (<span style="color: #9cdcfe;">self</span>.v == <span style="color: #b5cea8;">0</span> <span style="color: #569cd6;">and</span> <span style="color: #9cdcfe;">other</span>.v == <span style="color: #b5cea8;">1</span>):<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #c586c0;">return</span> SyntheticLogic(<span style="color: #b5cea8;">0.5</span>)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #c586c0;">return</span> SyntheticLogic(<span style="color: #dcdcaa;">min</span>(<span style="color: #9cdcfe;">self</span>.v, <span style="color: #9cdcfe;">other</span>.v))<br>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #569cd6;">def</span> <span style="color: #dcdcaa;">resolve_with_work</span>(<span style="color: #9cdcfe;">self</span>, <span style="color: #9cdcfe;">work_energy</span>):<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #6a9955;"># Transition from 0.5 to 1.0 requires Work (W)</span><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #c586c0;">if</span> <span style="color: #9cdcfe;">self</span>.v == <span style="color: #b5cea8;">0.5</span>:<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #c586c0;">if</span> <span style="color: #9cdcfe;">work_energy</span> >= <span style="color: #b5cea8;">100</span>:<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #9cdcfe;">self</span>.v = <span style="color: #b5cea8;">1.0</span><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #c586c0;">return</span> <span style="color: #ce9178;">"Stabilized to 1.0"</span><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #c586c0;">elif</span> <span style="color: #9cdcfe;">work_energy</span> <= <span style="color: #b5cea8;">0</span>:<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #9cdcfe;">self</span>.v = <span style="color: #b5cea8;">0.0</span><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #c586c0;">return</span> <span style="color: #ce9178;">"Logical Decay to 0.0 (Entropy)"</span><br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #c586c0;">return</span> <span style="color: #ce9178;">"Remains in Potential (0.5)"</span>
+    </div>
+
+    <div class="box" style="border-left-color: var(--success);">
+        <strong>Solving AI Hallucinations:</strong><br>
+        Current AI models hallucinate because they are forced into binary outcomes where data is insufficient. Synthetics enables AI agents to consciously maintain information in a <strong>0.5 state</strong>, preserving system integrity until computational <strong>Work (W)</strong> confirms a transition to 1.0. This marks the transition from "statistical guessing" to "logical certainty."
+    </div>
+
+    <h2>VIII. Conclusion: Spheres of Application and Civilizational Evolution</h2>
+    <div class="box">
+        <strong>1. Digital Electronics and Hardware (Hybrid Transition):</strong> Synthetics does not discard existing binary systems; it adds intelligence to them. We propose a framework for hybrid chips where a <strong>Logic 0.5</strong> layer acts as a logical buffer. It stabilizes conflicts and race conditions within the silicon, turning hardware errors into states awaiting Work (W). This leads to processors that consume energy intelligently—proportional to the weight of the truth they must stabilize.<br>
+        <strong>2. Artificial Intelligence (AI) and Software:</strong> Addressing the crisis of "Subliminal Modus Ponens." Current AI models hallucinate because they are forced into binary outcomes where data is insufficient. Synthetics enables AI agents to consciously maintain information in a 0.5 state, preserving system integrity until computational Work (W) confirms a transition to 1.0.<br>
+        <strong>3. Physics and Cosmology:</strong> Synthetics provides the mathematical bridge to unify General Relativity (1.0) and Quantum Mechanics (0.5). Modern physics fails at singularities because it subconsciously applies binary logic where nature demands potential. By treating gravity as a manifestation of logical Work (W), we pave the way for a coherent description of the universe.<br>
+        <strong>4. Chemistry and Materials Science:</strong> The 0.5 state is the natural language of dynamic equilibrium. Matter is not always in a state of rest (1.0) or decay (0.0). Synthetics allows for the precise modeling of processes where activation energy represents the necessary Work (W) to transition the truth-state of matter.<br>
+        <strong>5. Economics and Finance:</strong> Synthetics does not negate the current system; it upgrades it with crisis management tools. Market instability is no longer viewed as an anomaly but as a 0.5 state requiring conscious, stabilizing investment Work (W), rather than relying on rigid algorithms that subconsciously follow flawed premises.<br>
+        <strong>6. Human Thought and Peace:</strong> The most profound contribution of Synthetics is illuminating the thinking process that has operated "under the radar" for millennia. Humans subconsciously use Modus Ponens to instantly jump from assumption to judgment. Synthetics teaches us to recognize the 0.5 state as a space for dialogue. The statement "You are lying" is replaced by the understanding that truth is in a state of potential, requiring collective diplomatic Work (W). This transforms geopolitics from an arena of destruction into the engineering of stability and lasting peace.
+    </div>
+</section>
+
+<div class="cta">
+    <strong>BUDITE DEO EVOLUCIJE A NE REVOLUCIJE / JOIN THE EVOLUTION NOT THE REVOLUTION</strong><br>
+    Izračunajte svoj Rad (W) i stabilizujte svoje 0.5 potencijale u 1.0 realnost.<br>
+    <em>Calculate your Work (W) and stabilize your 0.5 potentials into 1.0 reality.</em>
+</div>
+
+<footer style="text-align: center; padding: 4rem 2rem; color: #95a5a6; border-top: 2px solid #ddd; margin-top: 5rem;">
+    <p style="font-weight: bold; font-size: 1.1rem; color: #2c3e50; margin-bottom: 1rem;">
+        &copy; 2026 Zoran Stepanoski. SINTETIKA / SYNTHETICS FRAMEWORK.
+    </p>
+    <div style="font-size: 0.9rem; line-height: 1.6; max-width: 900px; margin: 0 auto 1.5rem auto;">
+        <p>
+            Ovaj dokument je intelektualna svojina autora. Dozvoljeno je korišćenje, deljenje i citiranje u naučne i istraživačke svrhe uz obavezno citiranje:<br> 
+            <strong>Stepanoski, Z. (2026). Synthetics: The 0.5 Logic Framework.</strong>
+        </p>
+        <p style="margin-top: 10px; border-top: 1px dashed #ddd; padding-top: 10px;">
+            This document is the intellectual property of the author. Usage, sharing, and citation are permitted for scientific and research purposes, provided that mandatory attribution is given:<br> 
+            <strong>Stepanoski, Z. (2026). Synthetics: The 0.5 Logic Framework.</strong>
+        </p>
+    </div>
+    <p style="font-size: 0.85rem; font-style: italic;">
+        #LogicalEvolution #Logic05 #TheoryOfEverything #EmergentGravity #AIStability
+    </p>
+</footer>
+
+</body>
+</html>
