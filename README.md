@@ -1,8 +1,9 @@
 # SINTETIKA (Logic 0.5): The Universal Scaling Engine
-[![DOI](https://zenodo.org/badge/1159531437.svg)](https://doi.org/10.5281/zenodo.18664810)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18665275.svg)](https://doi.org/10.5281/zenodo.18665275)
 
 **Author:** Zoran Stepanoski  
-**Version:** 1.2.0  
+**Version:** 1.2.2  
 **Framework:** Logic 0.5 (Synthetics)
 
 ---
@@ -22,6 +23,7 @@ $$S = 8.74 \times 10^{-10} \text{ m/s}^2$$
 This constant represents the base "Processing Speed" of the universe. When applied through the **Zoran Scaling Law** (a non-linear complexity exponent of **12.1**), it successfully unifies three disparate scales of physics without the need for Dark Matter or additional "ghost" particles.
 
 ### 📊 Verified Scientific Results
+
 | Scale | Observation | Target Value | Stepanoski Result | Accuracy |
 | :--- | :--- | :--- | :--- | :--- |
 | **Solar System** | Pioneer Anomaly | 8.74e-10 m/s² | 8.74e-10 m/s² | **100%** |
@@ -43,7 +45,7 @@ This constant represents the base "Processing Speed" of the universe. When appli
 If you use this framework or the Stepanoski Constant in your research, please cite:
 
 **APA:**
-> Stepanoski, Z. (2026). *Synthetics (Logic 0.5): The Universal Engine for Field Unification*. Zenodo. https://doi.org/10.5281/zenodo.18664810
+> Stepanoski, Z. (2026). *Synthetics (Logic 0.5): The Universal Engine for Field Unification*. Zenodo. https://doi.org/10.5281/zenodo.18665275
 
 **BibTeX:**
 ```bibtex
@@ -53,8 +55,8 @@ If you use this framework or the Stepanoski Constant in your research, please ci
   month        = feb,
   year         = 2026,
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.18664810},
-  url          = {https://doi.org/10.5281/zenodo.18664810}
+  doi          = {10.5281/zenodo.18665275},
+  url          = {https://github.com/StepanoskiZ/Synthetics-Universal-Engine}
 }
 
 Developed by Zoran Stepanoski. Bridging the gap between Software Engineering and Cosmology.
