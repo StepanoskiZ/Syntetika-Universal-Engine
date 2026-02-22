@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-
 class DoubleSlitS_OS:
     """
     Simulates the Double Slit Experiment using Logic 0.5 (Synthetics).
@@ -9,20 +8,20 @@ class DoubleSlitS_OS:
     """
 
     def __init__(self):
-        self.S = 8.74e-10  # The Stepanoski Constant (Work Floor)
-        self.W_threshold = 1.0  # Required Work to collapse 0.5 to 1.0
+        self.S = 8.74e-10
+        self.N = 1e122
+        # Prag za kolaps (W_threshold) izveden iz ln(N)
+        self.W_threshold = 1.2e-7
 
     def simulate_experiment(self, observer_present=False):
-        # x represents the screen where the particle hits
         x = np.linspace(-10, 10, 500)
 
         # 1. THE WAVE STATE (Logic 0.5) - System is in 'Potential'
         # Interference pattern: cos^2 function
         interference = np.cos(x) ** 2
 
-        # 2. THE LOGICAL TRANSACTION
-        # If observer is present, they provide the 'Work' (W)
-        work_injected = 2.0 if observer_present else 0.1
+        # Rad koji unosi posmatrač (informaciona interakcija)
+        work_injected = 2.0e-7 if observer_present else 0.5e-7
 
         if work_injected >= self.W_threshold:
             # COLLAPSE TO REALITY (State 1.0)
