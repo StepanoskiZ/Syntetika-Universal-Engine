@@ -2,7 +2,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18665428.svg)](https://doi.org/10.5281/zenodo.18665428) [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)]() [![License](https://img.shields.io/badge/license-MIT-blue)]()
 
 **Author:** Zoran Stepanoski  
-**Version:** Version 3.1.1: Integrated Holographic Bound (N=10^122) and Spherical Horizon Correction (4-Pi) for unified galactic and stellar scale resolution.
+**Version:** Version 3.1.2: Integrated Holographic Bound (N=10^122) and Spherical Horizon Correction (4-Pi) for unified galactic and stellar scale resolution.
 
 **Framework:** Logic 0.5 (Syntetika)  
 
@@ -54,7 +54,7 @@ Syntetika applies to *any* distributed information system, including economics.
 ---
 
 ## 🎯 Case Study: The TRAPPIST-1 System
-The engine was applied to the TRAPPIST-1 exoplanetary system. The Stepanoski Paradox Prediction (Blue Line) correctly models the high gravitational influence where Newtonian physics (Red Dots) fails, confirming that Paradox Density is a function of network complexity.
+Comparative analysis of the TRAPPIST-1 system using NASA Exoplanet Archive data. Traditional Newtonian mechanics (Logic 1.0) predicts orbital instability and chaotic collapse for such compact multi-body systems over long timescales. Syntetika (S-OS) resolves this "Stability Paradox" by identifying the Logical Work (W) (blue shaded area) required to maintain structural certainty. The graph shows that while the acceleration values align with classical expectations, the S-OS framework provides the necessary informational "glue" (derived from the N² Network Paradox) that enforces long-term resonance and prevents entropy from disrupting the planetary lattice. This confirms that gravity in compact systems is a self-regulating process of the universal substrate.
 
 ![TRAPPIST-1 Verification](TRAPPIST-1_Stepanoski_Verification.png)
 
