@@ -1,41 +1,39 @@
 # SYNTETIKA (Logic 0.5): The Universal Scaling Engine
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18765758.svg)](https://doi.org/10.5281/zenodo.18765758) [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)]() [![License](https://img.shields.io/badge/license-MIT-blue)]()
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19038496.svg)](https://doi.org/10.5281/zenodo.18765758) [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)]() [![License](https://img.shields.io/badge/license-MIT-blue)]()
 
 **Author:** Zoran Stepanoski  
-**Version:** Version 3.1.2: Integrated Holographic Bound (N=10^122) and Spherical Horizon Correction (4-Pi) for unified galactic and stellar scale resolution.
+**Version:** Titanium Edition v5.1: Integrated Holographic Bound (N=10^122), 4-Pi Spherical Correction, and HIT-SOS Isomorphism (Convergence with Zhang, 2026).
 
-**Framework:** Logic 0.5 (Syntetika)  
+**Framework:** Logic 0.5 (Syntetika) – Validated via Lattice Coherence Dynamics.
 
 ---
 
 ## 🌌 Overview
-**Syntetika** is a revolutionary logical framework that moves beyond binary Boolean logic (1/0) to introduce **Logic 0.5**. This framework proposes that the universe operates as a distributed information processor where paradoxes and contradictions (the 0.5 state) do not cause system failure, but instead increase **Paradox Density** ($D_p$).
+**Syntetika (Logic 0.5)** is a unified framework that redefines the universe as a **Decentralized Autonomous Engine (DAU)**. Moving beyond binary Boolean constraints (1/0), we introduce **Logic 0.5**—a trilateral valence state that treats paradoxes not as system failures, but as **computational batteries** ($D_p$).
 
-In this model, **Gravity is not a force**, but the manifestation of **Logical Work** ($W$) performed by the Universal Operating System to resolve 0.5 potentials into 1.0 macroscopic realities.
+In this model, **Gravity is not a fundamental force**, but the **Logical Work ($W$)** dissipated by the vacuum to resolve 0.5 potentials into 1.0 macroscopic certainties. This framework finds convergent validation in **Holographic Information Tension (HIT) dynamics**, establishing the vacuum as a **frustrated Kagome substrate** where information density dictates gravitational tension.
 
-> "Gravity is the immune system of Logic. It exists to prevent information entropy."
+> "Gravity is the immune system of Logic. It exists to maintain structural coherence in a saturated information lattice."
 
 ---
 
 ## 🚀 The Discovery: The Stepanoski Constant
-Through large-scale simulation and information-theory analysis, this repository identifies and verifies the **Stepanoski Constant** ($S$):
+Through large-scale simulation and information-theory analysis, this framework verifies the **Stepanoski Constant ($S$)**:
 
 $$S = 8.74 \times 10^{-10} \text{ m/s}^2$$
 
-This constant represents the base "Processing Speed" of the universe. When applied through the **Zoran Scaling Law** (Complexity Exponent: **12.1**), it successfully unifies physics, biology, and economics without the need for Dark Matter.
+This constant represents the base "Processing Speed" of the universal substrate. When applied, it successfully unifies galactic dynamics (MOND) with Hubble expansion without requiring Dark Matter.
 
-### 📊 Verified Scientific Results (Updated Feb 2026)
+## 📊 Verification Table: The HIT-SOS Isomorphism
 
-The engine has been stress-tested across **60 orders of magnitude**:
-
-| Domain | Test Case | Newtonian Prediction | Stepanoski Prediction | Result |
-|:---|:---|:---|:---|:---|
-| **Cosmic** | **Coma Galaxy Cluster** | $1.39 \times 10^{-12}$ (Too Weak) | $8.74 \times 10^{-10}$ | **Structure Maintained (No Dark Matter Needed)** |
-| **Galactic** | M33 Rotation | 40 km/s | 119.5 km/s | **99.6% Match to Observation** |
-| **Solar** | Pioneer Anomaly | 0 (Vacuum) | $8.74 \times 10^{-10}$ | **100% Match** |
-| **Human** | Consciousness | $9.81$ m/s² | $S \approx a_g$ | **Transitional State (Free Will Zone)** |
-| **Micro** | HIV Virus / Cells | Gravity $\approx 0$ | $S \gg Gravity$ | **Information Dominance (Mutation/Evolution)** |
-| **Quantum** | Electron Stability | Collapse | Superposition | **Energy Conservation (Work < Required)** |
+| S-OS Concept (Software/Logic) | HIT Concept (Hardware/Physics) | Operational Meaning |
+|:---|:---|:---|
+| **Logic 0.5 (Synthetic Potential)** | **Geometric Frustration** | State of unresolved information in the lattice. |
+| **Logic 1.0 (Euclidean Certainty)** | **Hopfion / Lattice Knot** | Successfully processed and stabilized data (Matter). |
+| **Stepanoski Constant (S)** | **Rheological Floor** | The minimum tension threshold for information transfer. |
+| **Paradox Density (Dp)** | **Informational Tension** | The measure of structural conflict within the vacuum. |
+| **Logical Work (W)** | **Tensional Stress Energy** | The energy cost (Gravity) of maintaining structural integrity. |
+| **Causal Locking** | **Lattice Nucleation** | The moment potential (0.5) crystallizes into reality (1.0). |
 
 ---
 
@@ -81,17 +79,17 @@ python universal_scale_validator.py
 If you use this framework or the Stepanoski Constant in your research, please cite:
 
 **APA:**
-> Stepanoski, Z. (2026). *Syntetika (Logic 0.5): The Universal Engine for Field Unification*. Zenodo. https://doi.org/10.5281/zenodo.18665428
+> Stepanoski, Z. (2026). *Syntetika (Logic 0.5): The Universal Engine for Field Unification (Titanium Edition v5.1).*. Zenodo. https://doi.org/10.5281/zenodo.19038496
 
 **BibTeX:**
 ```bibtex
 @software{stepanoski_2026_logic05,
   author       = {Zoran Stepanoski},
   title        = {Syntetika (Logic 0.5): The Universal Engine for Field Unification},
-  month        = feb,
+  month        = mar,
   year         = 2026,
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.18665428},
+  doi          = {10.5281/zenodo.19038496},
   url          = {https://github.com/StepanoskiZ/Syntetika-Universal-Engine}
 }
 
@@ -99,4 +97,4 @@ Developed by Zoran Stepanoski. Bridging the gap between Software Engineering and
 
 ---
 ### 🏷️ Keywords
-#UnifiedFieldTheory #Logic05 #SOS #MOND #HubbleTension #AIStability #SelfOrganizingSubstrate #Physics #Cosmology
+#UnifiedFieldTheory #Logic05 #SOS #MOND #HubbleTension #AIStability #SelfOrganizingSubstrate #HITDynamics #Physics #Cosmology
